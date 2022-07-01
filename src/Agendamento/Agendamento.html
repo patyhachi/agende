@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Perfil do Prestador</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/rome.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <header>
+
+            <section id="menu">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="../Home/Home.html"> <img src="../_assets/Vector.svg" alt=""
+                                    class="img-fluid"> Agendê </a>
+
+                            <div>
+                                <input type="text" placeholder="Encanadores" />
+                                <button class="btn btn-primary" href="../ResultadoBusca/search-results.html"
+                                    type="button">Buscar</button>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="../logIn/login.html"><button class="btn btn-primary me-md-2"
+                                        type="button">Login</button></a>
+                                <a href="../signUp/SignUp.html"><button class="btn btn-primary"
+                                        type="button">Cadastre-se</button></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+
+
+        </header>
+
+        <section id="radios">
+            <div class="container">
+                <h1 class="titulo1">Nome do Prestador - Nome da Empresa</h1>
+                <h4>Profissão</h4>
+                <h5 id="perfPrest1">Endereço - Cidade, Estado</h5>
+                <h6>Breve descrição oferecida pelo prestador e sobre os serviços prestados por ele.</h6>
+            </div>
+            <div class="container">
+                <div id="perfPrest3">
+                    <h4>Selecione a categoria de atendimento</h4>
+                    <button type="perfprest4" class="btn btn-outline-secondary">Vazamento</button>
+                    <button type="button" class="btn btn-outline-secondary">Consertos</button>
+                    <button type="button" class="btn btn-outline-secondary">Ajustes diversos</button>
+                    <button type="button" class="btn btn-outline-secondary">Avaliação</button>
+                    <h6 id="perfPrest2">Dinheiro, Cartão de crédito, Cartão de débito, PIX.</h6>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container">
+            <table>
+                <tr>
+                    <th>
+                        <div class="box">
+                            <div class="container text-left">
+
+                                <div class="row justify-content-left">
+                                    <div class="col-md-10 text-center">
+                                        <h4 class="mb-5 text-center">Selecione a data do atendimento</h4>
+                                        <input type="text" class="form-control w-25 mx-auto mb-3" id="result"
+                                            placeholder="Select date" disabled="">
+                                        <form action="#" class="row">
+                                            <div class="col-md-12">
+                                                <div id="inline_cal"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="bd-example">
+                            <h5>Horários disponíveis</h5>
+                            <a href="../servicoAgendado/ServicoAgendado.html"><button class="btn btn-primary"
+                                    type="button">10:00</button></a>
+                            <a href="../servicoAgendado/ServicoAgendado.html"><button class="btn btn-primary"
+                                    type="button">14:00</button></a>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/rome.js"></script>
+
+            <script src="js/main.js"></script>
+
+    </main>
+</body>
