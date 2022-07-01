@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/cdp.css">
+    <title>Cadastro do parceiro</title>
+</head>
+<body>
+
+    <header>
+
+        
+        <section id="menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">            
+                    <div class="container-fluid">              
+                       
+                      <a class="navbar-brand" href="../Home/Home.html"> <img src="../_assets/Vector.svg" alt="" class="img-fluid"> Agendê </a>
+            
+                                           
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a href="../logIn/login.html"><button class="btn btn-primary me-md-2" type="button">Login</button></a>
+                        <a href="../signUp/SignUp.html"><button class="btn btn-primary" type="button">Cadastre-se</button></a>
+                      </div>
+
+                        
+
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </section>
+        
+
+    </header>
+
+    <main>
+
+
+        <section id="radios">
+
+            <div class="container">
+                <h1 class="titulo1">Seus horários</h1>
+            </div>
+
+        </section>
+
+
+        <section id="formulario">
+
+            <div class="container">
+                <form  class="row">
+                    <div class="col-md-6">
+                      <div class="box">
+                        <label id="labelhorarios" for="inputend4" class="form-label">Quais são seus horários?</label>
+                        <div class="input-group mb-3">
+                            <input id="horarios" type="text" class="form-control" placeholder="Horário de início" aria-label="Horário de início">
+                            <span class="input-group-text">-></span>
+                            <input type="text" class="form-control" placeholder="Horário de saída" aria-label="Horário de saída">
+                        </div>
+                        <label id="labelpausa" for="inputest4" class="form-label">Qual é o seu horário de pausa?</label>
+                        <div class="input-group mb-3">
+                            <input id="pausa" type="text" class="form-control" id="time" placeholder="Início da pausa" aria-label="Inicio da pausa">
+                            <span class="input-group-text">-></span>
+                            <input type="text" class="form-control" id="pausa" placeholder="Fim da pausa" aria-label="Fim da pausa">
+                        </div>
+                      </div>
+                    </div>
+                    
+                      
+                    
+                      <form id="myform" action="">
+                        <div  class="col-md-6">
+                          <div class="box">
+                              <label for="form-check-input" class="form-label">Selecione os dias da semana que você trabalha</label>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" checked id="flexCheckSegunda">
+                                  <label class="form-check-label"   for="flexCheckSegunda">
+                                    Segunda
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" checked id="flexCheckTerca">
+                                  <label class="form-check-label" for="flexCheckTerca">
+                                      Terça
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" checked id="flexCheckQuarta">
+                                  <label class="form-check-label" for="flexCheckQuarta">
+                                      Quarta
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" checked id="flexCheckQuinta" >
+                                  <label class="form-check-label" for="flexCheckQuinta">
+                                      Quinta
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value=""  checked id="flexCheckSexta">
+                                  <label class="form-check-label" for="flexCheckSexta">
+                                      Sexta
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckSabado">
+                                    <label class="form-check-label" for="flexCheckSabado">
+                                        Sabado
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDomingo">
+                                    <label class="form-check-label" for="flexCheckDomingo">
+                                        Domingo
+                                    </label>
+                                  </div>                 
+                               
+                               
+            
+                </form>            
+            </div>          
+
+        </section>
+
+
+        <section id="botao">            
+            <div class="container">
+                <div class="row">
+
+                    <div class="d-grid gap-2 col-6 mx-end ">
+                        <button onclick="proximo ()" class="btn btn-primary" type="button">Próximo</button>                        
+                    
+                      </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+
+
+
+
+    </main>
+   
+
+    <script src="../_js/jquery-3.3.1.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+    <script src="../_js/cdp_horarios.js"></script>
+    
+</body>
+</html>

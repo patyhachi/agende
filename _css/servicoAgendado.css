@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+:root {
+    --primary:#0D6EFD;
+}
+
+#menu{
+    
+    margin-top: 10px;    
+
+}
+
+#menu .navbar-brand{
+
+font-family: 'Open Sans', sans-serif;
+font-size: 36px;
+color:var(--primary);  
+
+
+}
+
+#menu .img-fluid{
+
+    height: 40px;
+    margin-bottom: 4%;
+    
+}
+
+#menu .me-md-2 {
+    color: #0D6EFD;
+    background-color: white;
+}
+#botao .me-md-2{
+    color: #0D6EFD;
+    background-color: white;
+}
+
+
+main {
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+#radios {
+
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#radios .titulo1 {
+
+    font-size: 31px;
+    font-weight: 700;
+}
+
+#radios .titulo2 {
+
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+
+#radios .detalhe{
+
+    font-size: 16px;
+    color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+
+#formulario .form-label {
+    font-weight: 500;
+}
+#formulario .form-title {
+    font-weight: 500;
+    margin-top: 10%;
+}
+#formulario .form-select {
+    color: #7C7C7C;
+}
+
+
+#botao .btn-primary{
+    margin-top: 5%;
+
+}
+#texto-alinhado .frase{ margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;}
+#texto-final .frase {
+
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    
+
+}
+#forgot-password .frase {
+
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+
+
+}
+svg{
+    width: 40px;
+    height: 40px;
+}
+
+#image-home-background {
+position: fixed;
+width: 645.61px;
+height: 559.16px;
+left: 58%;
+top: 183px;
+margin-right: 10%;
+
+}
+/* Wavy Buddies Address */
+#image-home{
+     
+position: fixed;
+width: 466px;
+height: 291px;
+left: 60%;
+top: 271px;
+margin-right: 10%;
+}
+#home-img{
+margin-left: 50%;
+}
+@media  (min-width: 880px) {
+    #menu-mobile{
+        display: none;
+    }
+    #texto-alinhado
+    {width: 50% ;}
+}
+@media  (max-width: 879px) {
+    #texto-alinhado
+    {width: 100%; }
+    #menu-mobile{
+        display: block;
+    }
+    #menu-desktop{
+        display: none;
+    }
+    #image-home{
+        display: none;
+      }
+    #home-img{
+        display: none;
+      }
+      #image-home-background {
+        display: none;}
+}
+#olho {
+  
+        background: transparent !important;
+        border: none !important; 
+        position: absolute !important;
+        left: 93%;
+        top: 30%;
+
+  }
+
+
+
+
+
+

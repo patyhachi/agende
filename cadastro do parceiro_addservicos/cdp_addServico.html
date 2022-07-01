@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../_css/cdp.css">
+  <title>Sobre os seus serviços</title>
+
+</head>
+
+<body>
+
+  <header>
+
+
+    <section id="menu">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+
+            <a class="navbar-brand" href="../Home/Home.html"> <img src="../_assets/Vector.svg" alt="" class="img-fluid">
+              Agendê </a>
+
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="../logIn/login.html"><button class="btn btn-primary me-md-2" type="button">Login</button></a>
+              <a href="../signUp/SignUp.html"><button class="btn btn-primary" type="button">Cadastre-se</button></a>
+            </div>
+
+
+
+          </div>
+      </div>
+      </nav>
+      </div>
+    </section>
+
+
+  </header>
+
+  <main>
+
+
+    <section id="radios">
+
+      <div class="container">
+        <h1 class="titulo1">Sobre os seus serviços</h1>
+        <br>
+      </div>
+
+    </section>
+
+
+    <section id="formulario">
+
+      <div class="container">
+        <form class="row g-2">
+          <div class="col-md-6">
+            <div class="box">
+              <label id="labelprofissao" for="inputesta4" class="form-label">Qual a sua profissão?</label>
+
+              <select id="profissao" class="form-select" aria-label="Default select example">
+                <option selected>Encanador</option>
+                <option value="2">Administração</option>
+                <option value="3">Artesanato</option>
+                <option value="2">Babá</option>
+                <option value="3">Barbeiro</option>
+                <option value="2">Cabelereiro</option>
+                <option value="3">Caça vazamentos</option>
+                <option value="2">Contabilidade</option>
+                <option value="3">Corretor</option>
+                <option value="2">Costureiro</option>
+                <option value="3">Cozinheiro</option>
+                <option value="2">Cuidador</option>
+                <option value="3">Depilador</option>
+                <option value="2">Desentupidor</option>
+                <option value="3">Despachante</option>
+                <option value="2">Diarista</option>
+                <option value="3">Eletricista</option>
+                <option value="2">Entregador</option>
+                <option value="3">Esteticista/beleza</option>
+                <option value="2">Estilista</option>
+                <option value="3">Ferralheiro</option>
+                <option value="2">Manicure</option>
+                <option value="3">Maquiador</option>
+                <option value="2">Marneceiro</option>
+                <option value="3">Passeador de cães</option>
+                <option value="2">Pedreiro</option>
+                <option value="3">Pintor</option>
+                <option value="2">Podólogo</option>
+                <option value="2">Segurança</option>
+                <option value="3">Serviços pets</option>
+                <option value="2">Serviços-gerais</option>
+                <option value="3">Vidraceiro</option>
+                <option value="2">Outros</option>
+
+              </select>
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="box">
+              <label id="labelservicos" for="inputname4" class="form-label">Que serviços você oferece?</label>
+              <input id="servicos" type="text" data-role="tagsinput" class="form-control">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="box">
+              <label id="labeldescricao" for="descricao" class="form-label">Breve descrição</label>
+              <textarea id="descricao" class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="box">
+              <label id="labelpagamentos" for="form-check-input" class="form-label">Que meios de pagamento você
+                aceita?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" checked name="flexDefault" id="flexDefault1">
+                <label class="form-check-label" for="flexCheckPix">
+                  Pix
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="2" checked id="flexCheckTransferencia">
+                <label class="form-check-label" for="flexCheckTransferencia">
+                  Transferência
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="3" id="flexCheckDinheiro">
+                <label class="form-check-label" for="flexCheckDinheiro">
+                  Dinheiro
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="4" id="flexCheckDebit">
+                <label class="form-check-label" for="flexCheckDebit">
+                  Débito
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="5" id="flexCheckCredit">
+                <label class="form-check-label" for="flexCheckCredit">
+                  Crédito
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+        </form>
+      </div>
+
+    </section>
+
+
+    <section id="botao">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-grid gap-2">
+            <button onclick="proximo ()" class="btn btn-primary"
+              href="/src/cadastro do parceiro_horarios/cdp_horarios.html" type="button">Próximo</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../_js/cdp.js"></script>
+</body>
+
+</html>
